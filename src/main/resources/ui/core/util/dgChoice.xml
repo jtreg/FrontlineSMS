@@ -3,8 +3,8 @@
     <panel name="pnLabels" colspan="3" columns="1" gap="5">
     	<!--  This will be populated at runtime by custom labels -->
     </panel>
-    <button weightx="1" icon="/icons/tick.png" name="btYes" text="i18n.action.yes"/>
-    <button weightx="1" icon="/icons/cross.png" name="btNo" text="i18n.action.no"/>
-	<button weightx="1" icon="/icons/left.png" action="removeDialog" name="btCancel" text="i18n.action.cancel"/>
+    <button mnemonic="0" weightx="1" icon="/icons/tick.png" name="btYes" text="i18n.action.yes"/>
+    <button mnemonic="0" weightx="1" icon="/icons/cross.png" name="btNo" text="i18n.action.no"/>
+	<button mnemonic="0" weightx="1" icon="/icons/left.png" action="removeDialog" name="btCancel" text="i18n.action.cancel"/>
     <label/>
 </dialog>
